@@ -1,0 +1,12 @@
+applications:
+- services:
+  - ResumeCatcher-MonitoringAndAnalytics
+  - ResumeLogger-cloudantNoSQLDB
+  disk_quota: 1024M
+  host: ResumeLogger
+  name: ResumeLogger
+  path: JavaCloudantDB.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
+  command: ls -1
